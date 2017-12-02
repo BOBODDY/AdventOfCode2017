@@ -4,3 +4,4 @@ My attempts at solving the problems in the 2017 Advent of Code. I'm using this t
 
 ## Done
 * Day 1
+* Day 2
