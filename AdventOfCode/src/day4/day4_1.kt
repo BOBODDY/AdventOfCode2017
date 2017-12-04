@@ -15,11 +15,9 @@ fun main(args: Array<String>) {
 fun countValidPassphrases(phrases: List<String>): Int {
     var count = 0
 
-    for(phrase in phrases) {
-        if(isValidPassphrase(phrase)) {
-            count += 1
-        }
-    }
+    phrases
+            .filter { isValidPassphrase(it) }
+            .forEach { count += 1 }
 
     return count
 }
