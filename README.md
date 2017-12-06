@@ -8,3 +8,4 @@ My attempts at solving the problems in the 2017 Advent of Code. I'm using this t
 * Day 3
 * Day 4
 * Day 5
+* Day 6
